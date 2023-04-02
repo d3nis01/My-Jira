@@ -1,0 +1,102 @@
+{
+  "statuses": [
+    {
+      "title": "in progess",
+      "id": 2
+    },
+    {
+      "title": "done",
+      "id": 3
+    },
+    {
+      "title": "dropped",
+      "id": 4
+    },
+    {
+      "title": "postponed",
+      "id": 5
+    },
+    {
+      "title": "code review",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "31",
+      "mail": "3",
+      "adress": "1993\n",
+      "currentStatus": "to do",
+      "id": 3
+    },
+    {
+      "name": "1",
+      "mail": "2",
+      "adress": "4",
+      "currentStatus": "to do",
+      "id": 4
+    },
+    {
+      "name": "1",
+      "mail": "2",
+      "adress": "",
+      "id": 5
+    },
+    {
+      "name": "1",
+      "mail": "2",
+      "adress": "",
+      "id": 6
+    },
+    {
+      "name": "1",
+      "mail": "2",
+      "adress": "3",
+      "id": 7
+    },
+    {
+      "name": "2",
+      "mail": "3",
+      "adress": "3",
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "title": "do homework",
+      "body": "at oop",
+      "currentStatus": "code review"
+    },
+    {
+      "id": 3,
+      "title": "create jira",
+      "body": "get data",
+      "currentStatus": "done"
+    },
+    {
+      "id": 4,
+      "title": "wake up",
+      "body": "done",
+      "currentStatus": "dropped"
+    },
+    {
+      "id": 5,
+      "title": "sleep",
+      "body": "not to much",
+      "currentStatus": "postponed"
+    },
+    {
+      "id": 6,
+      "title": "present",
+      "body": "-",
+      "currentStatus": "dropped"
+    },
+    {
+      "title": "task",
+      "body": "-",
+      "currentStatus": "done",
+      "id": 7
+    }
+  ]
+}

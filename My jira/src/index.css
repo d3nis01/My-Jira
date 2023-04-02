@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Secular+One&family=Zen+Dots&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+}
+
+.AddPostForm {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 207, 209, 0.532);
+
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+
+  height: 500px;
+  width: 500px;
+
+
+  border-radius: 10px;
+
+  background-color: rgb(72, 140, 169);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+  padding: 30px;
+
+}
+
+.editpost-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.postform {
+  display: flex;
+  flex-direction: column;
+}
+
+.SinglePost {
+  background-color: rgba(45, 146, 189, 0.695);
+  padding: 15px;
+}
+
+.singlepost-title {
+  color:black;
+  font-family: 'Zen Dots', cursive;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.singlepost-status {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.singlepost-content {
+  font-size: 24px;
+  color:rgb(47, 47, 47);
+  font-weight: 900;
+}
+
+.singlepost-body {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.editpost-button {
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.PostElement {
+  background-color: rgb(154, 182, 207);
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.PostCategory {
+  display: flex;
+
+}
+
+.PostsList {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  background-color: gray;
+  min-height: 200px;
+  margin: 10px;
+
+}
+
+.post-link {
+  text-decoration: none;
+  color: black;
+}
+
+#postContent {
+  height: 150px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.StatusesList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.StatusDisplay {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+
+  background-color: rgb(182, 181, 181);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+.statusdisplay-title {
+  font-family: 'Zen Dots', cursive;
+  font-size: 20px;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.statuseslist-title {
+  font-family: 'Zen Dots', cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.statusdisplay-icon {
+  height: 50px;
+  width: auto;
+}
+
+.statusdisplay-icon :hover {
+  opacity: 0.5;
+}
+
